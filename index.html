@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link id="theme-stylesheet" rel="stylesheet" href="styles/style.css">
+    <title>Portfólio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="js/theme.js"></script>
+    <script src="js/lang.js"></script>
+</head>
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <div class="cabecalho__menu__tema">
+                <button onclick="trocarTema()" class="cabecalho__menu__botao">
+                    <img class="cabecalho__menu__botao__Img" src="assets/theme.png" alt="Theme"> 
+                </button>
+            </div>
+
+            <div class="cabecalho__menu__lang">
+
+                <button class="cabecalho__menu__lang__button" onclick="changeLanguage('pt-br')">PT-BR</button>
+                <button class="cabecalho__menu__lang__button" onclick="changeLanguage('en')">EN</button>
+                <button  class="cabecalho__menu__lang__button"onclick="changeLanguage('it')">IT</button>
+            </div>
+            
+        </nav>
+        
+    </header>
+
+    <main class="Principal">
+        <section class="Principal__TextButton">
+            <h1 id="title" class="Principal__TextButton__h1">Hello! <br>Welcome to <strong id="Color" class="Strong1">my Portfolio!</strong></h1>
+            <p id="text" class="Principal__TextButton__p">Here you can find some of my finish projects and more:</p>
+            <div class="Principal__TextButton__Buttons">
+                <div class="Principal__TextButton__Buttons1">
+                    <a id="Link1" class="Principal__TextButton__Buttons__Button" href="gameList.html">Play my Games!</a>
+                    <a id="Link2" class="Principal__TextButton__Buttons__Button" href="https://github.com/Julio-MP" target="_blank">Open my GitHub</a>
+                </div>
+                <div class="Principal__TextButton__Buttons2">
+                    <a id="Link3" class="Principal__TextButton__Buttons__Button" href="https://www.linkedin.com/in/julio-moreno-possebon/" target="_blank"> My LinkedIn</a>
+                    <a id="Link4" class="Principal__TextButton__Buttons__Button" href="about.html"> About Me</a>
+                </div>
+            </div>
+        </section>
+        <img id="img1" class="Containerimg" src="assets/profile-pic (4).png" alt="Computer Science">
+    </main>
+
+    <footer class="rodape">
+        <!-- <a  class="rodape__button" href="julio.possebon1@gmail.com">Contact me</a> -->
+        <a id="Link5" href="mailto:julio.possebon1@gmail.com?subject=&body=" class="rodape__button" target="_blank">Contact me</a>
+    </footer>
+</body>
+</html>
+
+
+        <!--<a href="https://www.youtube.com">clique</a>
+        <img src="html.png" alt="Logo">
+        <p>Testando uma mudança para ver se da certo o commit</p>
+        <a href=""></a>
+        
+        ATALHO LISTA
+        
+        li*ul*7-->
+
