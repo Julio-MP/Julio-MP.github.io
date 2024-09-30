@@ -518,6 +518,14 @@ footer {
         padding-right: 0px;
     }
 
+      .Principal__TextButton__2{
+        width: 80%;
+        gap: 5px;
+        opacity: 0px;
+        padding:0px;
+        display: flex;
+        flex-direction: column;
+    }
 
 
                                                             /* CellPhone (Game)*/
